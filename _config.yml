@@ -8,11 +8,11 @@ plugins:
   - jekyll-include-cache
 
 minimal_mistakes_skin: "default"
+masthead_title: false
 
 defaults:
-  - scope: { path: "" }
+  - scope:
+      path: ""
     values:
       layout: single
       author_profile: false
-      minimal_mistakes_skin: "default"
-      masthead_title: false
