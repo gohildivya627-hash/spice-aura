@@ -4,12 +4,12 @@ description: Premium dehydrated spices & ingredients for B2B buyers. Inquiry-bas
 url: "https://gohildiya627-hash.github.io"
 baseurl: "/spice-aura"
 
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+remote_theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-include-cache
 
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: default
 masthead_title: "Spice Aura Foods Inc."
 
 defaults:
