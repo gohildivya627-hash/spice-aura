@@ -1,0 +1,20 @@
+title: Spice Aura Foods Inc.
+description: Premium dehydrated spices & ingredients for B2B buyers. Inquiry-based wholesale pricing.
+
+url: "https://gohildiya627-hash.github.io"
+baseurl: "/spice-aura"
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "default"
+masthead_title: "Spice Aura Foods Inc."
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: false
