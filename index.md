@@ -14,21 +14,15 @@ header:
 excerpt: "Premium dehydrated ingredients, herbs and spices for B2B buyers. Inquiry-based wholesale pricing."
 ---
 
-## Our mission is simple
+## Our mission is simple:
 Deliver purity, consistency, and authentic flavor to the Canadian wholesale and retail market.
 
-## Who We Serve
-- Food Manufacturers  
-- Distributors & Importers  
-- Spice & Seasoning Brands  
-- Foodservice Suppliers  
-- Private Label Companies  
+Premium Dehydrated Spices & Ingredients  
+Wholesale & Retail Distribution Across Canada
 
-## Why Spice Aura
-- Consistent granulation & mesh options  
-- Reliable bulk supply  
-- Food-grade handling & packaging options  
-- COA available upon request  
-- Responsive Canadian service  
+From bulk B2B supply to retail-ready packaging, we serve:
 
-[View Full Product List](/products/)
+• Food manufacturers  
+• Restaurants & food service  
+• Distributors  
+• Retail grocery chains
