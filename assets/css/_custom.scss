@@ -1,1 +1,43 @@
+/* Spice Aura – brochure-style polishing */
 
+:root{
+  --sa-brown:#6b4a2b;
+  --sa-green:#4f8b3a;
+  --sa-paper:#f7f3e8;
+}
+
+body{
+  background: var(--sa-paper);
+  color:#2b2b2b;
+}
+
+.page__hero--overlay .page__title{
+  font-family: "Playfair Display", serif;
+  letter-spacing: .5px;
+  text-transform: none;
+}
+
+.page__hero--overlay .page__lead{
+  font-size: 1.25rem;
+  max-width: 55rem;
+}
+
+.btn{
+  border-radius: 6px;
+  padding: 12px 18px;
+}
+
+.btn--primary{
+  background: var(--sa-green) !important;
+  border-color: var(--sa-green) !important;
+  color:#fff !important;
+}
+
+/* Soft “brochure card” blocks */
+.sa-card{
+  background: rgba(255,255,255,.75);
+  border: 1px solid rgba(0,0,0,.06);
+  border-radius: 14px;
+  padding: 18px;
+  margin: 14px 0;
+}
