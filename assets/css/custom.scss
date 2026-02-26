@@ -1,0 +1,23 @@
+---
+---
+
+@import "minimal-mistakes";
+
+body {
+  background-color: #f7f3ed;
+}
+
+.page__hero--overlay .page__title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.page__hero--overlay .page__lead {
+  font-size: 1.3rem;
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 12px 20px;
+}
