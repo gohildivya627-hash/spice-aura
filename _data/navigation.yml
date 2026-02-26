@@ -1,8 +1,12 @@
 main:
   - title: "Home"
     url: /
+  - title: "About"
+    url: /about/
   - title: "Products"
     url: /products/
+  - title: "Quality"
+    url: /quality/
   - title: "Certificates"
     url: /certificates/
   - title: "Contact"
