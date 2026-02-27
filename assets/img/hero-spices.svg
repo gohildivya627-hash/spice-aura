@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#FBF7F2"/>
+    <stop offset="1" stop-color="#F5EFE6"/>
+  </linearGradient>
+  <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#000" flood-opacity="0.18"/>
+  </filter>
+</defs>
+<rect width="1200" height="800" rx="48" fill="url(#bg)"/>
+<g filter="url(#sh)">
+  <rect x="120" y="170" width="960" height="460" rx="36" fill="#fff" opacity="0.72"/>
+</g>
+<g transform="translate(180,230)">
+  <text x="0" y="0" font-family="Playfair Display, Georgia, serif" font-size="64" fill="#6B3E2E">Premium B2B Supply</text>
+  <text x="0" y="54" font-family="Inter, system-ui, Arial" font-size="20" fill="rgba(30,26,22,0.75)">Dehydrated ingredients, herbs & spices — COA on request</text>
+</g>
+<g transform="translate(240,360)">
+  <g>
+    <circle cx="120" cy="120" r="120" fill="#fff" stroke="rgba(0,0,0,0.06)" stroke-width="2"/>
+    <circle cx="120" cy="120" r="92" fill="#F5EFE6"/>
+    <path d="M60 120c18-46 62-78 114-78 19 0 36 4 52 11-7 44-40 78-84 90-35 10-70 3-82-23z" fill="#C8A25A" opacity=".85"/>
+  </g>
+  <g transform="translate(260,0)">
+    <circle cx="120" cy="120" r="120" fill="#fff" stroke="rgba(0,0,0,0.06)" stroke-width="2"/>
+    <circle cx="120" cy="120" r="92" fill="#F5EFE6"/>
+    <path d="M70 80c40-36 104-30 140 12-18 44-65 78-114 84-26 3-46-3-56-14 4-35 14-60 30-82z" fill="#3E7A4A" opacity=".80"/>
+  </g>
+  <g transform="translate(520,0)">
+    <circle cx="120" cy="120" r="120" fill="#fff" stroke="rgba(0,0,0,0.06)" stroke-width="2"/>
+    <circle cx="120" cy="120" r="92" fill="#F5EFE6"/>
+    <path d="M62 150c10-54 58-98 114-98 14 0 28 3 40 7-5 54-48 102-102 116-30 8-52 2-52-25z" fill="#6B3E2E" opacity=".75"/>
+  </g>
+</g>
+</svg>

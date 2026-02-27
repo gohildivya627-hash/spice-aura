@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact | Spice Aura Foods Inc.</title>
+  <meta name="description" content="Spice Aura Foods Inc. — Premium dehydrated ingredients, herbs & spices for B2B buyers. Inquiry-based wholesale pricing. COA on request.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/logo.png">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html" aria-label="Spice Aura Home">
+        <img src="assets/img/logo.png" alt="Spice Aura — The Essence of Real Spices">
+      </a>
+
+      <button class="mobile-toggle" type="button" data-nav-toggle aria-label="Open menu">Menu</button>
+
+      <div class="navlinks" data-nav>
+        <a data-navlink href="index.html">Home</a>
+        <a data-navlink href="about.html">About</a>
+        <a data-navlink href="products.html">Products</a>
+        <a data-navlink href="certificates.html">Certificates</a>
+        <a data-navlink href="contact.html">Contact</a>
+        <a class="btn btn-primary" href="contact.html#quote">Request a Quote</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="lead">Reach us directly or submit an inquiry form. We respond to B2B wholesale requests.</p>
+
+      <div class="grid-3" style="grid-template-columns: .9fr 1.1fr 1fr;">
+        <div class="card"><div class="body">
+          <h3>Spice Aura Foods Inc.</h3>
+          <p class="small">
+            Phone: +1 289 952 6201<br>
+            Email: info@spiceaurafoods.com<br>
+            Website: www.spiceaurafoods.com
+          </p>
+          <p class="small" style="margin-top:10px;"><strong>COA on request.</strong></p>
+        </div></div>
+
+        <div class="card" style="grid-column:2 / span 2;">
+          <div class="body" id="quote">
+            <h3>Request a quote</h3>
+            <p class="small" style="margin:0 0 12px;">Share product + form + size/mesh, volume, and delivery location.</p>
+            <form class="form" method="POST" action="https://formspree.io/f/your-form-id">
+              <input class="input" name="name" placeholder="Your name" required>
+              <input class="input" name="company" placeholder="Company name" required>
+              <input class="input" type="email" name="email" placeholder="Email" required>
+              <input class="input" name="phone" placeholder="Phone (optional)">
+              <input class="input full" name="product" placeholder="Product + form + size/mesh" required>
+              <input class="input" name="volume" placeholder="Estimated volume (monthly/quarterly)">
+              <input class="input" name="destination" placeholder="Delivery location (city/province)">
+              <textarea class="input full" name="message" placeholder="Additional details"></textarea>
+              <div class="full">
+                <button class="btn btn-primary" type="submit">Send Inquiry</button>
+                <p class="help" style="margin:10px 0 0;">
+                  Tip: Replace <strong>your-form-id</strong> with your free Formspree form ID to receive submissions by email.
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="assets/img/logo.png" alt="Spice Aura" style="height:32px;width:auto;">
+        <p class="small" style="margin:10px 0 0;">
+          Spice Aura Foods Inc. • Canada<br>
+          Inquiry-based wholesale supply for manufacturers, distributors & food-service brands.<br>
+          <strong>COA on request.</strong>
+        </p>
+      </div>
+      <div>
+        <p class="small" style="margin:0 0 8px;"><strong>Contact</strong></p>
+        <p class="small" style="margin:0;">
+          Phone: +1 289 952 6201<br>
+          Email: info@spiceaurafoods.com<br>
+          Website: www.spiceaurafoods.com
+        </p>
+      </div>
+    </div>
+    <p class="small" style="margin:18px 0 0; opacity:.75;">© 2026 Spice Aura Foods Inc. All rights reserved.</p>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
